@@ -1,0 +1,17 @@
+{
+  "name": "smartspend-ecommerce-testing",
+  "version": "1.0.0",
+  "description": "SmartSpend E-Commerce Planning, Test Automation & Documentation Suite - Student 3 Workspace",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/run-all-tests.js"
+  },
+  "keywords": [
+    "ecommerce-planner",
+    "automated-tests",
+    "qa",
+    "student3-ecommerce"
+  ],
+  "author": "Student 3 (E-Commerce & QA Lead)",
+  "license": "MIT"
+}

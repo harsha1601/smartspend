@@ -1,0 +1,681 @@
+{
+  "users": [
+    {
+      "_id": "fc78237c00bedae16ad26af9",
+      "name": "Alex Morgan",
+      "email": "demo@smartspend.com",
+      "password": "$2a$10$7SuhoEPgU9wfs2ti5k.l/OdZJCrBZdUypIaQFqkgCGWoxnVuQfniu",
+      "monthlyBudgetLimit": 3200,
+      "currency": "USD",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-14T17:33:58.951Z",
+      "updatedAt": "2026-10-14T17:33:58.951Z"
+    },
+    {
+      "_id": "4209ae2a720d0352247e917a",
+      "name": "Jane Doe",
+      "email": "testuser_1791999525984@example.com",
+      "password": "$2a$10$hEAYr/tfjHQOa.0If0qTQOYxUFNni6Af8InE.95CdMF5C9Q/Fphhi",
+      "monthlyBudgetLimit": 3000,
+      "currency": "USD",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane%20Doe",
+      "createdAt": "2026-10-14T17:38:46.138Z",
+      "updatedAt": "2026-10-14T17:38:46.138Z"
+    },
+    {
+      "_id": "61fc3a09a3a1d5ebf6120c5e",
+      "name": "Jane Doe",
+      "email": "testuser_1792000531257@example.com",
+      "password": "$2a$10$6vhz0.RzOWVD9j6U35rb2OPtWWyTBD9frw6PDryqeDBUfhlHaB6iO",
+      "monthlyBudgetLimit": 3000,
+      "currency": "USD",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane%20Doe",
+      "createdAt": "2026-10-14T17:55:31.432Z",
+      "updatedAt": "2026-10-14T17:55:31.432Z"
+    },
+    {
+      "_id": "ffceba944589e2c21bb63863",
+      "name": "harshavardhan",
+      "email": "23091a3242@rgmcet.edu.in",
+      "password": "$2a$10$1OWffp6ThKdhNTy3ONKr5eKCS/eGv4jLjgAqW6pbF.kinrJkLkgQq",
+      "monthlyBudgetLimit": 50000,
+      "currency": "INR",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=harshavardhan",
+      "createdAt": "2026-10-14T18:16:24.703Z",
+      "updatedAt": "2026-10-14T18:34:36.729Z"
+    },
+    {
+      "_id": "6b81a9b0dc6a3d74bbd4df59",
+      "name": "Jane Doe",
+      "email": "testuser_1792002962623@example.com",
+      "password": "$2a$10$t54hCxsR/HhiM4GJAONoju/osbW./EavyvVEh1dERFJ..m.ExtUdW",
+      "monthlyBudgetLimit": 3000,
+      "currency": "USD",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane%20Doe",
+      "createdAt": "2026-10-14T18:36:02.863Z",
+      "updatedAt": "2026-10-14T18:36:02.863Z"
+    }
+  ],
+  "incomes": [
+    {
+      "_id": "00e04589f92c9c511058c1de",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Senior Software Engineer Salary",
+      "amount": 4800,
+      "category": "Salary",
+      "date": "2026-10-01",
+      "description": "Monthly direct deposit paycheck from TechCorp",
+      "createdAt": "2026-10-14T17:33:58.953Z",
+      "updatedAt": "2026-10-14T17:33:58.953Z"
+    },
+    {
+      "_id": "cfb441b44a55c8789e4d3b5f",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "UI/UX Freelance Design Project",
+      "amount": 950,
+      "category": "Freelance",
+      "date": "2026-10-08",
+      "description": "Client dashboard design milestone completion",
+      "createdAt": "2026-10-14T17:33:58.953Z",
+      "updatedAt": "2026-10-14T17:33:58.953Z"
+    },
+    {
+      "_id": "ab36e5bfafcc23f3a2c12f82",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Stock Portfolio Dividends",
+      "amount": 320,
+      "category": "Investments",
+      "date": "2026-10-12",
+      "description": "Q3 Index ETF quarterly dividends",
+      "createdAt": "2026-10-14T17:33:58.953Z",
+      "updatedAt": "2026-10-14T17:33:58.953Z"
+    },
+    {
+      "_id": "07cf7c1b2d58eaf57c8c8a2d",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Tech Blog Sponsorship",
+      "amount": 450,
+      "category": "Side Hustle",
+      "date": "2026-10-15",
+      "description": "Monthly newsletter sponsorship spot",
+      "createdAt": "2026-10-14T17:33:58.953Z",
+      "updatedAt": "2026-10-14T17:33:58.953Z"
+    },
+    {
+      "_id": "0326ccd05234678a7c8da431",
+      "userId": "4209ae2a720d0352247e917a",
+      "title": "Consulting Honorarium",
+      "amount": 1500,
+      "category": "Freelance",
+      "date": "2026-10-10",
+      "description": "Completed system architectural review",
+      "createdAt": "2026-10-14T17:38:46.372Z",
+      "updatedAt": "2026-10-14T17:38:46.372Z"
+    },
+    {
+      "_id": "0eb40bcdcbfc59c6c26f786f",
+      "userId": "61fc3a09a3a1d5ebf6120c5e",
+      "title": "Consulting Honorarium",
+      "amount": 1500,
+      "category": "Freelance",
+      "date": "2026-10-10",
+      "description": "Completed system architectural review",
+      "createdAt": "2026-10-14T17:55:31.661Z",
+      "updatedAt": "2026-10-14T17:55:31.661Z"
+    },
+    {
+      "_id": "1150434469eff7bb671e74c5",
+      "userId": "ffceba944589e2c21bb63863",
+      "title": "salary",
+      "amount": 100000,
+      "category": "Salary",
+      "date": "2026-10-01",
+      "description": "",
+      "createdAt": "2026-10-14T18:16:59.271Z",
+      "updatedAt": "2026-10-14T18:18:34.097Z"
+    },
+    {
+      "_id": "861c6adcb57b2eb5b9148c06",
+      "userId": "6b81a9b0dc6a3d74bbd4df59",
+      "title": "Consulting Honorarium",
+      "amount": 1500,
+      "category": "Freelance",
+      "date": "2026-10-10",
+      "description": "Completed system architectural review",
+      "createdAt": "2026-10-14T18:36:03.153Z",
+      "updatedAt": "2026-10-14T18:36:03.153Z"
+    }
+  ],
+  "expenses": [
+    {
+      "_id": "10edf26f26e2ebea82705d97",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Apartment Rent & Utilities",
+      "amount": 1200,
+      "category": "Bills",
+      "date": "2026-10-02",
+      "paymentMethod": "Bank Transfer",
+      "notes": "Fixed monthly housing expense",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "5281db5eb13a990c48c0e841",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Whole Foods Grocery Haul",
+      "amount": 215.5,
+      "category": "Food",
+      "date": "2026-10-04",
+      "paymentMethod": "Credit Card",
+      "notes": "Bi-weekly organic groceries and pantry restock",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "7b6cc4675937f22a3da1a1c5",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "High-speed Fiber Internet",
+      "amount": 79.99,
+      "category": "Bills",
+      "date": "2026-10-05",
+      "paymentMethod": "Debit Card",
+      "notes": "1 Gbps home office internet connection",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "b456b349ea0267e4192ac9b1",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Metro Rail Pass & Transit",
+      "amount": 110,
+      "category": "Travel",
+      "date": "2026-10-07",
+      "paymentMethod": "Credit Card",
+      "notes": "Monthly public transport card",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "e5999f2165020dfefd18658a",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Full Stack Web Architecture Course",
+      "amount": 149.99,
+      "category": "Education",
+      "date": "2026-10-09",
+      "paymentMethod": "Credit Card",
+      "notes": "O'Reilly learning subscription renewal",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "10e94b27c32e6cdaa6edb265",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Dinner with Colleagues at Bistro",
+      "amount": 92.4,
+      "category": "Food",
+      "date": "2026-10-11",
+      "paymentMethod": "Credit Card",
+      "notes": "Team dinner celebration",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "a666cf848a5e81289d12a288",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Netflix, Spotify & Cloud Storage",
+      "amount": 42.97,
+      "category": "Entertainment",
+      "date": "2026-10-13",
+      "paymentMethod": "Credit Card",
+      "notes": "Digital entertainment subscriptions",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "c78c6fd3230520a03535e1a2",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Winter Warm Jacket & Boots",
+      "amount": 220,
+      "category": "Shopping",
+      "date": "2026-10-14",
+      "paymentMethod": "Credit Card",
+      "notes": "Winter apparel discount deal",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "61091b10adbf59b868b2d5a3",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Gym Membership & Fitness Tracker",
+      "amount": 65,
+      "category": "Healthcare",
+      "date": "2026-10-15",
+      "paymentMethod": "Debit Card",
+      "notes": "Monthly wellness center access",
+      "createdAt": "2026-10-14T17:33:58.954Z",
+      "updatedAt": "2026-10-14T17:33:58.954Z"
+    },
+    {
+      "_id": "ae2b9722fcf97205e53974c2",
+      "userId": "4209ae2a720d0352247e917a",
+      "title": "Weekly Supermarket Trip",
+      "amount": 185.5,
+      "category": "Food",
+      "date": "2026-10-12",
+      "paymentMethod": "Credit Card",
+      "notes": "Groceries and meal prep ingredients",
+      "createdAt": "2026-10-14T17:38:46.390Z",
+      "updatedAt": "2026-10-14T17:38:46.390Z"
+    },
+    {
+      "_id": "b7bc97f79bab943075f0e842",
+      "userId": "61fc3a09a3a1d5ebf6120c5e",
+      "title": "Weekly Supermarket Trip",
+      "amount": 185.5,
+      "category": "Food",
+      "date": "2026-10-12",
+      "paymentMethod": "Credit Card",
+      "notes": "Groceries and meal prep ingredients",
+      "createdAt": "2026-10-14T17:55:31.677Z",
+      "updatedAt": "2026-10-14T17:55:31.677Z"
+    },
+    {
+      "_id": "241f13c773affa011cb0f31a",
+      "userId": "ffceba944589e2c21bb63863",
+      "title": "exp1",
+      "amount": 20000,
+      "category": "Food",
+      "date": "2026-10-02",
+      "paymentMethod": "Credit Card",
+      "notes": "",
+      "createdAt": "2026-10-14T18:17:27.326Z",
+      "updatedAt": "2026-10-14T18:17:27.326Z"
+    },
+    {
+      "_id": "eeee6bb61b7e62c411dd8e96",
+      "userId": "ffceba944589e2c21bb63863",
+      "title": "exp2",
+      "amount": 10000.01,
+      "category": "Travel",
+      "date": "2026-10-14",
+      "paymentMethod": "UPI/Digital",
+      "notes": "",
+      "createdAt": "2026-10-14T18:18:08.326Z",
+      "updatedAt": "2026-10-14T18:18:08.326Z"
+    },
+    {
+      "_id": "94fd126731b3c89e4d92f536",
+      "userId": "6b81a9b0dc6a3d74bbd4df59",
+      "title": "Weekly Supermarket Trip",
+      "amount": 185.5,
+      "category": "Food",
+      "date": "2026-10-12",
+      "paymentMethod": "Credit Card",
+      "notes": "Groceries and meal prep ingredients",
+      "createdAt": "2026-10-14T18:36:03.170Z",
+      "updatedAt": "2026-10-14T18:36:03.170Z"
+    }
+  ],
+  "budgets": [
+    {
+      "_id": "92afde8a414dfffee4556610",
+      "userId": "fc78237c00bedae16ad26af9",
+      "month": 10,
+      "year": 2026,
+      "totalBudget": 3200,
+      "categoryBudgets": [
+        {
+          "category": "Bills",
+          "limit": 1400
+        },
+        {
+          "category": "Food",
+          "limit": 550
+        },
+        {
+          "category": "Travel",
+          "limit": 250
+        },
+        {
+          "category": "Education",
+          "limit": 200
+        },
+        {
+          "category": "Entertainment",
+          "limit": 150
+        },
+        {
+          "category": "Shopping",
+          "limit": 350
+        },
+        {
+          "category": "Healthcare",
+          "limit": 150
+        },
+        {
+          "category": "Other",
+          "limit": 150
+        }
+      ],
+      "createdAt": "2026-10-14T17:33:58.956Z",
+      "updatedAt": "2026-10-14T17:33:58.956Z"
+    },
+    {
+      "_id": "02e5af00752bd2cc9753f051",
+      "userId": "4209ae2a720d0352247e917a",
+      "month": 10,
+      "year": 2026,
+      "totalBudget": 2800,
+      "categoryBudgets": [
+        {
+          "category": "Food",
+          "limit": 500
+        },
+        {
+          "category": "Travel",
+          "limit": 300
+        }
+      ],
+      "createdAt": "2026-10-14T17:38:46.403Z",
+      "updatedAt": "2026-10-14T17:38:46.403Z"
+    },
+    {
+      "_id": "62e53591dbc68e70909383dc",
+      "userId": "61fc3a09a3a1d5ebf6120c5e",
+      "month": 10,
+      "year": 2026,
+      "totalBudget": 2800,
+      "categoryBudgets": [
+        {
+          "category": "Food",
+          "limit": 500
+        },
+        {
+          "category": "Travel",
+          "limit": 300
+        }
+      ],
+      "createdAt": "2026-10-14T17:55:31.686Z",
+      "updatedAt": "2026-10-14T17:55:31.686Z"
+    },
+    {
+      "_id": "82f46ba10b7be265dc7c2f50",
+      "userId": "6b81a9b0dc6a3d74bbd4df59",
+      "month": 10,
+      "year": 2026,
+      "totalBudget": 2800,
+      "categoryBudgets": [
+        {
+          "category": "Food",
+          "limit": 500
+        },
+        {
+          "category": "Travel",
+          "limit": 300
+        }
+      ],
+      "createdAt": "2026-10-14T18:36:03.181Z",
+      "updatedAt": "2026-10-14T18:36:03.181Z"
+    }
+  ],
+  "savings": [
+    {
+      "_id": "ba9a7d6cc8682a6b4a70bde1",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "6-Month Emergency Safety Fund",
+      "targetAmount": 10000,
+      "currentAmount": 7200,
+      "targetDate": "2027-06-30",
+      "category": "Emergency Fund",
+      "notes": "High-yield savings account for unexpected emergencies",
+      "status": "In Progress",
+      "createdAt": "2026-10-14T17:33:58.957Z",
+      "updatedAt": "2026-10-14T17:33:58.957Z"
+    },
+    {
+      "_id": "6a7a1fe5117e65c9684090a3",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Tokyo & Kyoto Vacation Trip",
+      "targetAmount": 3500,
+      "currentAmount": 2600,
+      "targetDate": "2026-12-20",
+      "category": "Vacation",
+      "notes": "Flights, ryokan booking, and bullet train passes",
+      "status": "In Progress",
+      "createdAt": "2026-10-14T17:33:58.957Z",
+      "updatedAt": "2026-10-14T17:33:58.957Z"
+    },
+    {
+      "_id": "371e62d1ad696bae53dc66db",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "M3 MacBook Pro Upgrade",
+      "targetAmount": 2200,
+      "currentAmount": 2200,
+      "targetDate": "2026-10-30",
+      "category": "Gadgets",
+      "notes": "Dev workstation upgrade - fully funded!",
+      "status": "Completed",
+      "createdAt": "2026-10-14T17:33:58.957Z",
+      "updatedAt": "2026-10-14T17:33:58.957Z"
+    },
+    {
+      "_id": "2ad98a69996559589e081b4a",
+      "userId": "fc78237c00bedae16ad26af9",
+      "title": "Downpayment for Electric Vehicle",
+      "targetAmount": 6000,
+      "currentAmount": 1800,
+      "targetDate": "2027-10-15",
+      "category": "Vehicle",
+      "notes": "Savings towards clean energy commuter vehicle",
+      "status": "In Progress",
+      "createdAt": "2026-10-14T17:33:58.957Z",
+      "updatedAt": "2026-10-14T17:33:58.957Z"
+    },
+    {
+      "_id": "afdcaa74da2e41d058b3ac92",
+      "userId": "4209ae2a720d0352247e917a",
+      "title": "Emergency Rainy Day Fund",
+      "targetAmount": 5000,
+      "currentAmount": 1500,
+      "targetDate": "2026-12-31",
+      "category": "Emergency Fund",
+      "notes": "",
+      "status": "In Progress",
+      "createdAt": "2026-10-14T17:38:46.415Z",
+      "updatedAt": "2026-10-14T17:38:46.421Z"
+    },
+    {
+      "_id": "715d1690a7b3df14bdbf3f5e",
+      "userId": "61fc3a09a3a1d5ebf6120c5e",
+      "title": "Emergency Rainy Day Fund",
+      "targetAmount": 5000,
+      "currentAmount": 1500,
+      "targetDate": "2026-12-31",
+      "category": "Emergency Fund",
+      "notes": "",
+      "status": "In Progress",
+      "createdAt": "2026-10-14T17:55:31.710Z",
+      "updatedAt": "2026-10-14T17:55:31.716Z"
+    },
+    {
+      "_id": "3db675f5c9f24212e5cdda66",
+      "userId": "6b81a9b0dc6a3d74bbd4df59",
+      "title": "Emergency Rainy Day Fund",
+      "targetAmount": 5000,
+      "currentAmount": 1500,
+      "targetDate": "2026-12-31",
+      "category": "Emergency Fund",
+      "notes": "",
+      "status": "In Progress",
+      "createdAt": "2026-10-14T18:36:03.192Z",
+      "updatedAt": "2026-10-14T18:36:03.201Z"
+    }
+  ],
+  "shopping": [
+    {
+      "_id": "30e7e2deab0d93b4436e3be7",
+      "userId": "fc78237c00bedae16ad26af9",
+      "name": "Sony WH-1000XM5 Wireless Headphones",
+      "category": "Electronics",
+      "price": 348,
+      "quantity": 1,
+      "priority": "High",
+      "expectedDate": "2026-10-25",
+      "productUrl": "https://www.sony.com/electronics/headband-headphones/wh-1000xm5",
+      "notes": "Active noise-canceling for remote focus",
+      "isPurchased": false,
+      "createdAt": "2026-10-14T17:33:58.958Z",
+      "updatedAt": "2026-10-14T17:33:58.958Z"
+    },
+    {
+      "_id": "bd8b0f029e55704c638f597c",
+      "userId": "fc78237c00bedae16ad26af9",
+      "name": "Herman Miller Ergonomic Lumbar Chair",
+      "category": "Home & Kitchen",
+      "price": 850,
+      "quantity": 1,
+      "priority": "Medium",
+      "expectedDate": "2026-11-15",
+      "productUrl": "https://store.hermanmiller.com",
+      "notes": "Post-holiday office posture upgrade",
+      "isPurchased": false,
+      "createdAt": "2026-10-14T17:33:58.958Z",
+      "updatedAt": "2026-10-14T17:33:58.958Z"
+    },
+    {
+      "_id": "6fa7ef321bdeb39f905462ba",
+      "userId": "fc78237c00bedae16ad26af9",
+      "name": "Keychron Q1 Pro Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 199,
+      "quantity": 1,
+      "priority": "Medium",
+      "expectedDate": "2026-10-28",
+      "productUrl": "https://keychron.com/products/keychron-q1-pro",
+      "notes": "Custom wireless mechanical keyboard",
+      "isPurchased": false,
+      "createdAt": "2026-10-14T17:33:58.958Z",
+      "updatedAt": "2026-10-14T17:33:58.958Z"
+    },
+    {
+      "_id": "c7bb65e43cbb7582882bb027",
+      "userId": "fc78237c00bedae16ad26af9",
+      "name": "Nike Pegasus 41 Running Shoes",
+      "category": "Fitness & Sports",
+      "price": 130,
+      "quantity": 1,
+      "priority": "Low",
+      "expectedDate": "2026-11-05",
+      "productUrl": "https://www.nike.com",
+      "notes": "Morning marathon training shoes",
+      "isPurchased": false,
+      "createdAt": "2026-10-14T17:33:58.958Z",
+      "updatedAt": "2026-10-14T17:33:58.958Z"
+    },
+    {
+      "_id": "df531c286a051fa326d2289c",
+      "userId": "fc78237c00bedae16ad26af9",
+      "name": "Designing Data-Intensive Applications Book",
+      "category": "Books & Media",
+      "price": 44.5,
+      "quantity": 1,
+      "priority": "High",
+      "expectedDate": "2026-10-05",
+      "productUrl": "https://www.oreilly.com",
+      "notes": "System architecture study material",
+      "isPurchased": true,
+      "createdAt": "2026-10-14T17:33:58.958Z",
+      "updatedAt": "2026-10-14T17:33:58.958Z"
+    },
+    {
+      "_id": "0b8568f777ed83ba9b6a2e7b",
+      "userId": "4209ae2a720d0352247e917a",
+      "name": "4K Ultra-Wide Curved Monitor 34-inch",
+      "category": "Electronics",
+      "price": 650,
+      "quantity": 1,
+      "priority": "High",
+      "expectedDate": "2026-11-15",
+      "productUrl": "",
+      "notes": "Productivity monitor for dual workstation setup",
+      "isPurchased": true,
+      "createdAt": "2026-10-14T17:38:46.427Z",
+      "updatedAt": "2026-10-14T17:38:46.452Z"
+    },
+    {
+      "_id": "ed73eeb86abfe79ae6fdbf55",
+      "userId": "4209ae2a720d0352247e917a",
+      "name": "Mechanical Ergonomic Keyboard",
+      "category": "Electronics",
+      "price": 150,
+      "quantity": 2,
+      "priority": "Medium",
+      "expectedDate": "2026-11-20",
+      "productUrl": "",
+      "notes": "",
+      "isPurchased": false,
+      "createdAt": "2026-10-14T17:38:46.434Z",
+      "updatedAt": "2026-10-14T17:38:46.434Z"
+    },
+    {
+      "_id": "5d139bf9f4bd0294fe1af61d",
+      "userId": "61fc3a09a3a1d5ebf6120c5e",
+      "name": "4K Ultra-Wide Curved Monitor 34-inch",
+      "category": "Electronics",
+      "price": 650,
+      "quantity": 1,
+      "priority": "High",
+      "expectedDate": "2026-11-15",
+      "productUrl": "",
+      "notes": "Productivity monitor for dual workstation setup",
+      "isPurchased": true,
+      "createdAt": "2026-10-14T17:55:31.722Z",
+      "updatedAt": "2026-10-14T17:55:31.747Z"
+    },
+    {
+      "_id": "cfdf25ec8075ddd59596f1a2",
+      "userId": "61fc3a09a3a1d5ebf6120c5e",
+      "name": "Mechanical Ergonomic Keyboard",
+      "category": "Electronics",
+      "price": 150,
+      "quantity": 2,
+      "priority": "Medium",
+      "expectedDate": "2026-11-20",
+      "productUrl": "",
+      "notes": "",
+      "isPurchased": false,
+      "createdAt": "2026-10-14T17:55:31.727Z",
+      "updatedAt": "2026-10-14T17:55:31.727Z"
+    },
+    {
+      "_id": "f76c0566dba53de29533245a",
+      "userId": "6b81a9b0dc6a3d74bbd4df59",
+      "name": "4K Ultra-Wide Curved Monitor 34-inch",
+      "category": "Electronics",
+      "price": 650,
+      "quantity": 1,
+      "priority": "High",
+      "expectedDate": "2026-11-15",
+      "productUrl": "",
+      "notes": "Productivity monitor for dual workstation setup",
+      "isPurchased": true,
+      "createdAt": "2026-10-14T18:36:03.207Z",
+      "updatedAt": "2026-10-14T18:36:03.230Z"
+    },
+    {
+      "_id": "9900f107319469f2e6bdb1c2",
+      "userId": "6b81a9b0dc6a3d74bbd4df59",
+      "name": "Mechanical Ergonomic Keyboard",
+      "category": "Electronics",
+      "price": 150,
+      "quantity": 2,
+      "priority": "Medium",
+      "expectedDate": "2026-11-20",
+      "productUrl": "",
+      "notes": "",
+      "isPurchased": false,
+      "createdAt": "2026-10-14T18:36:03.213Z",
+      "updatedAt": "2026-10-14T18:36:03.213Z"
+    }
+  ]
+}

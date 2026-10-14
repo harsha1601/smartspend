@@ -1,0 +1,26 @@
+{
+  "name": "smartspend-suite",
+  "version": "1.0.0",
+  "description": "SmartSpend: Personal Finance & E-Commerce Planning Suite - 3-Student Collaborative Project",
+  "main": "student2-backend/server.js",
+  "scripts": {
+    "start": "node student2-backend/server.js",
+    "server": "node student2-backend/server.js",
+    "client": "npm run dev --prefix student1-frontend",
+    "dev": "node start-all.js",
+    "test": "npm test --prefix student3-ecommerce",
+    "seed": "npm run seed --prefix student2-backend",
+    "build:client": "npm run build --prefix student1-frontend"
+  },
+  "keywords": [
+    "personal-finance",
+    "ecommerce-planner",
+    "full-stack",
+    "mongodb",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "SmartSpend Student Team (Student 1, Student 2, Student 3)",
+  "license": "MIT"
+}
