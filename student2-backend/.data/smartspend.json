@@ -6,10 +6,10 @@
       "email": "demo@smartspend.com",
       "password": "$2a$10$7SuhoEPgU9wfs2ti5k.l/OdZJCrBZdUypIaQFqkgCGWoxnVuQfniu",
       "monthlyBudgetLimit": 3200,
-      "currency": "USD",
+      "currency": "INR",
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
       "createdAt": "2026-10-14T17:33:58.951Z",
-      "updatedAt": "2026-10-14T17:33:58.951Z"
+      "updatedAt": "2026-10-15T17:31:17.345Z"
     },
     {
       "_id": "4209ae2a720d0352247e917a",
@@ -37,7 +37,7 @@
       "_id": "ffceba944589e2c21bb63863",
       "name": "harshavardhan",
       "email": "23091a3242@rgmcet.edu.in",
-      "password": "$2a$10$1OWffp6ThKdhNTy3ONKr5eKCS/eGv4jLjgAqW6pbF.kinrJkLkgQq",
+      "password": "$2a$10$qx4lT9oXOHCZtv4fpaC5WulHF1OzHkQ/P6hdOsKmrKoJJOxBu9rqi",
       "monthlyBudgetLimit": 50000,
       "currency": "INR",
       "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=harshavardhan",
@@ -54,6 +54,17 @@
       "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane%20Doe",
       "createdAt": "2026-10-14T18:36:02.863Z",
       "updatedAt": "2026-10-14T18:36:02.863Z"
+    },
+    {
+      "_id": "780af79f9f5d7e99ded6fd14",
+      "name": "Harsha Vardhan",
+      "email": "pharshavardhan2027@gmail.com",
+      "password": "$2a$10$qEd.efL.z149O6CUTENQA.fAikS2eaUXsA3za67PJJmrJIR54sDMm",
+      "monthlyBudgetLimit": 3000,
+      "currency": "USD",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Harsha%20Vardhan",
+      "createdAt": "2026-10-15T17:39:39.565Z",
+      "updatedAt": "2026-10-15T17:39:39.565Z"
     }
   ],
   "incomes": [
